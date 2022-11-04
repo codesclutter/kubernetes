@@ -39,3 +39,9 @@ Verify
 
  Step 5 : 
  Sit back and enjoy K8 using Minikube.
+
+
+# I- Multi node Cluster using "Kubeadm" tool :-
+
+step 1 : Download Oracle virtual box (skip this if you already have it)
+step 2 : Download centos:07 (http://isoredirect.centos.org/centos/7/isos/x86_64/CentOS-7-x86_64-DVD-2009.iso)
