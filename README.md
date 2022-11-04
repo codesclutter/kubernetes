@@ -12,24 +12,24 @@ step 2 :
 Run the following commands to install and open Minikube in the Mac 
 (Source : https://minikube.sigs.k8s.io/docs/start/ )
 
-# minikube start
-# minikube kubectl -- get po -A
+#minikube start
+#minikube kubectl -- get po -A
 
 step 3 :
 Install Kubectl tool 
 (Source : https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
  
-   # curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
-   # curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl.sha256"
-   # echo "$(cat kubectl.sha256)  kubectl" | shasum -a 256 --check
-   # chmod +x ./kubectl
-   # sudo mv ./kubectl /usr/local/bin/kubectl
-   # sudo chown root: /usr/local/bin/kubectl
+   #curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
+   #curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl.sha256"
+   #echo "$(cat kubectl.sha256)  kubectl" | shasum -a 256 --check
+   #chmod +x ./kubectl
+   #sudo mv ./kubectl /usr/local/bin/kubectl
+   #sudo chown root: /usr/local/bin/kubectl
    
 Step 4 : 
 Verify 
 
-# kubectl get po -A
+#kubectl get po -A
  
  Step 5 : 
  Sit back and enjoy K8 using Minikube.
