@@ -30,6 +30,8 @@ Step 4 :
 Verify 
 
 #kubectl get po -A
- 
+#kubectl run web-server --image=nginx
+#kubectl get pods
+
  Step 5 : 
  Sit back and enjoy K8 using Minikube.
