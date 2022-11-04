@@ -8,6 +8,8 @@ MiniKube Installation
 step 1 : 
 Download Oracle Virtual Box : https://www.virtualbox.org/wiki/Downloads
 
+Install and restart (*Restart is must*)
+
 step 2 : 
 Run the following commands to install and open Minikube in the Mac 
 (Source : https://minikube.sigs.k8s.io/docs/start/ )
