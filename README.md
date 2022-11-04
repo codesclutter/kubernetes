@@ -1,7 +1,7 @@
 # kubernetes
 All about Kubernetes from scratch
 
-I- MINIKUBE :-
+# I- MINIKUBE :-
 
 MiniKube Installation
 
