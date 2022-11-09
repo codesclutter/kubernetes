@@ -43,4 +43,4 @@ Verify
 
 # I- Multi node Cluster using "Kubeadm" tool :-
 
-FOllow this link : 
+FOllow this link : https://github.com/codesclutter/kubernetes/wiki/Multi-node-cluster-setup-using-kubeadm-tool
