@@ -1,46 +1,20 @@
 # kubernetes
 All about Kubernetes from scratch
 
-# I- MINIKUBE :-
+Here are the useful links :
 
-MiniKube Installation
+1. [Multi node cluster setup using kubeadm tool](https://github.com/codesclutter/kubernetes/wiki/Multi-node-cluster-setup-using-kubeadm-tool)
 
-step 1 : 
-Download Oracle Virtual Box : https://www.virtualbox.org/wiki/Downloads
+2. [Steps to upgrade K8 cluster (from official doc)](https://github.com/codesclutter/kubernetes/wiki/steps-to-upgrade-K8-cluster-(from-official-doc))
 
-Install and restart (*Restart is must*)
+3. [Monitor a linux command continously](https://github.com/codesclutter/kubernetes/wiki/Monitor-a-linux-command-continously)
 
-step 2 : 
-Run the following commands to install and open Minikube in the Mac 
-(Source : https://minikube.sigs.k8s.io/docs/start/ )
+4. [Get `join` command for workers](https://github.com/codesclutter/kubernetes/wiki/Get-%60join%60-command-for-workers)
 
-#minikube start
-#minikube kubectl -- get po -A
+5. [Controlling your cluster from machines other than the control plane node](https://github.com/codesclutter/kubernetes/wiki/Controlling-your-cluster-from-machines-other-than-the-control-plane-node)
 
-step 3 :
-Install Kubectl tool 
-(Source : https://kubernetes.io/docs/tasks/tools/install-kubectl-macos/)
- 
-   #curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl"
-   #curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/darwin/amd64/kubectl.sha256"
-   #echo "$(cat kubectl.sha256)  kubectl" | shasum -a 256 --check
-   #chmod +x ./kubectl
-   #sudo mv ./kubectl /usr/local/bin/kubectl
-   #sudo chown root: /usr/local/bin/kubectl
-   
-Step 4 : 
-Verify 
+6. [Auto complete the K8 Commands while using the VMs](https://github.com/codesclutter/kubernetes/wiki/Auto-complete-the-K8-Commands-while-using-the-VMs)
 
-#kubectl get po -A
+7. [K8 Cluster upgrade](https://github.com/codesclutter/kubernetes/wiki/K8-Cluster-upgrade)
 
-#kubectl run web-server --image=nginx
-
-#kubectl get pods
-
- Step 5 : 
- Sit back and enjoy K8 using Minikube.
-
-
-# I- Multi node Cluster using "Kubeadm" tool :-
-
-FOllow this link : https://github.com/codesclutter/kubernetes/wiki/Multi-node-cluster-setup-using-kubeadm-tool
+8. 
