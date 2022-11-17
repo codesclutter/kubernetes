@@ -9,7 +9,7 @@ spec:
     metadata:
       name: rs-pod
       labels:
-        name: dev
+        team: dev
     spec:
       containers:
         - name: rs-container
