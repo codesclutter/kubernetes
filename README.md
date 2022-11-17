@@ -4,6 +4,8 @@ All about Kubernetes from scratch
 
 Here are the useful links :
 
+0. [Setup the GITHUB to your master node](https://github.com/codesclutter/kubernetes/wiki/Setup-the-GITHUB-to-your-master-node)
+
 1. [Multi node cluster setup using kubeadm tool](https://github.com/codesclutter/kubernetes/wiki/Multi-node-cluster-setup-using-kubeadm-tool)
 
 2. [Steps to upgrade K8 cluster (from official doc)](https://github.com/codesclutter/kubernetes/wiki/steps-to-upgrade-K8-cluster-(from-official-doc))
@@ -21,3 +23,4 @@ Here are the useful links :
 8. [K8 Pods Tshooting (From Pin to Plane)](https://github.com/codesclutter/kubernetes/wiki/K8-Pods-Tshooting-(From-Pin-to-Plane))
 
 9. [View the created container on the worker machine](https://github.com/codesclutter/kubernetes/wiki/View-the-created-container-on-the-worker-machine)
+
