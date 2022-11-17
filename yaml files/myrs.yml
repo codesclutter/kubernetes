@@ -5,7 +5,6 @@ metadata:
   labels:
     team: dev
 spec:
-
   template:
     metadata:
       name: rs-pod
@@ -15,9 +14,9 @@ spec:
       containers:
         - name: rs-container
           image: nginx
-    selector:
+  selector:
       matchLabels:
         team: dev
-    replicas: 4
+  replicas: 4
   
 
