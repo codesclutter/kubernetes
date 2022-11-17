@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: myrs
+  labels:
+    team: dev
+spec:
+
+  template:
+    metadata:
+      name: rs-pod
+      labels:
+        name: dev
+    spec:
+      containers:
+        - name: rs-container
+          image: nginx
+    selector:
+      matchLabels:
+        team: dev
+    replicas: 4
+  
+
