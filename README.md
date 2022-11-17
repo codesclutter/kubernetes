@@ -17,4 +17,6 @@ Here are the useful links :
 
 7. [K8 Cluster upgrade](https://github.com/codesclutter/kubernetes/wiki/K8-Cluster-upgrade)
 
-8. 
+8. [K8 Pods Tshooting (From Pin to Plane)] (https://github.com/codesclutter/kubernetes/wiki/K8-Pods-Tshooting-(From-Pin-to-Plane))
+
+9. [View the created container on the worker machine] (https://github.com/codesclutter/kubernetes/wiki/View-the-created-container-on-the-worker-machine)
