@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mydeployment
+  labels:
+    team: dev
+spec:
+  selector:
+    matchLabels:
+      team: dev
+  template:
+    metadata:
+      name: d-pod
+      labels:
+        team: dev
+    spec:
+      containers:
+        - name: d-container
+          image: nginx
+  replicas: 3
