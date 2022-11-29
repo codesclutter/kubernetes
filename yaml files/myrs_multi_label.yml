@@ -15,12 +15,12 @@ spec:
         - name: rs-container
           image: nginx
   selector:
-      MatchExpressions:
-	- key: team
-	  operator: In
-	  values:
-	    - dev
-	    - prod
+      matchExpressions:
+        - key: team
+          operator: In
+          values: 
+            - dev
+              prod
   replicas: 3
   
 
