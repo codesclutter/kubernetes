@@ -24,3 +24,6 @@ Here are the useful links :
 
 9. [View the created container on the worker machine](https://github.com/codesclutter/kubernetes/wiki/View-the-created-container-on-the-worker-machine)
 
+10. Overall steps to launch kubernetes cluster :
+    
+<img width="281" alt="Screenshot 2023-10-05 at 7 54 16 PM" src="https://github.com/codesclutter/kubernetes/assets/96595431/e990508f-a856-44de-b47c-0069760f71a9">
